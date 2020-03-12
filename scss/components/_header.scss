@@ -1,5 +1,7 @@
+@import "header_colors";
+
 .header {
   padding: 20px;
   margin: 20px;
-  background: yellow;
+  background: var(--header-background);
 }
