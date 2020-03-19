@@ -1,19 +1,16 @@
 {
   "name": "personal-website",
-  "version": "1.0.0",
-  "description": "my personal website",
+  "version": "0.0.1",
+  "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "npm-run-all --parallel sass serve",
-    "sass": "node-sass -w --output-style compressed scss/styles.scss docs/styles.css --source-map true",
-    "serve": "serve docs",
+    "start": "parcel src/index.html --out-dir docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "node-sass": "^4.13.1",
-    "npm-run-all": "^4.1.5",
-    "serve": "^11.3.0"
-  }
+  "author": "Julia Knuth",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "parcel-bundler": "1.12.4"
+  },
+  "dependencies": {}
 }
