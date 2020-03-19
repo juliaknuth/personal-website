@@ -1,16 +1,19 @@
 :root {
   --primary: maroon;
-  --secondary: skyblue; }
+  --secondary: skyblue;
+}
 
 body {
   display: grid;
-  background-color: papayawhip; }
+  background-color: papayawhip;
+}
 
 .mb-20 {
-  margin-bottom: 20px !important; }
+  margin-bottom: 20px !important;
+}
 
 .w-100 {
-  width: 100% !important; }
-
+  width: 100% !important;
+}
 
 /*# sourceMappingURL=/styles.5c8f3eab.css.map */

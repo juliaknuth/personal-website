@@ -10,7 +10,8 @@
   "author": "Julia Knuth",
   "license": "UNLICENSED",
   "devDependencies": {
-    "parcel-bundler": "1.12.4"
+    "parcel-bundler": "1.12.4",
+    "sass": "^1.26.3"
   },
   "dependencies": {}
 }
